@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.2s liner;
+}
+.box-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+}
+.box-container .box {
+  width: 600px;
+  background: antiquewhite;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px #0007;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.box-container .box .image {
+  text-align: center;
+  padding: 29px 10px;
+  width: 160px;
+  background: rgb(12, 11, 11);
+}
+.box-container .box .image img {
+  height: 168px;
+  border-radius: 8%;
+}
+.box-container .box .content {
+  display: flex;
+  padding: 0 10px;
+}
+.box-container .box .icons {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-right: 10px;
+}
+.box-container .box .icons .phone {
+  /* margin: 0 10px; */
+  /* margin-top: 10px; */
+  width: 25px;
+  height: 25px;
+  display: flex;
+}
+.box-container .box .icons .global {
+  /* margin: 0 10px; */
+  /* margin-top: 10px; */
+  width: 25px;
+  height: 25px;
+  display: flex;
+}
+.box-container .box .icons .email {
+  /* margin: 0 10px; */
+  /* margin-top: 10px; */
+  width: 25px;
+  height: 25px;
+  display: flex;
+}
+/* .box-container .box .icons i {
+  size: 10px;
+  margin: 10px 13px;
+  display: block;
+} */
+
+/* .box-container .box .icons i:first-child {
+  margin-bottom: 44px;
+} */
+.box-container .box .content .info h3 {
+  font-size: 25px;
+
+  padding: 5px 0;
+  text-transform: capitalize;
+
+  font-weight: bold;
+}
+.box-container .box .content .info .post {
+  display: block;
+  padding-bottom: 10px;
+}
+.box-container .box .content .info a {
+  display: block;
+  color: black;
+  padding: 6px 0;
+}
+.box-container .social {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.box-container .social .facebook {
+  width: 35px;
+  height: 35px;
+}
+.box-container .social .twitter {
+  width: 35px;
+  height: 35px;
+}
+.box-container .social .instagram {
+  width: 35px;
+  height: 35px;
+}
+.social .fa-facebook {
+  color: blue;
+}
+.social .fa-twitter {
+  color: #00acee;
+}
+.social .fa-instagram {
+  color: #cd486b;
+}
+.social .fa-youtube {
+  color: #c4302b;
+}
+@media (max-width: 650px) {
+  .box-container .box {
+    flex-flow: column;
+    width: 340px;
+  }
+}
+
+/* End of signature one */
